@@ -1,13 +1,14 @@
 # ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
 **PROJECT: Decentralized Star Notary Service Project** - This project i create a DApp with smart contracts and deployed it on the public testnet.
 
-Basic versions
+### Basic versions
 Truffle v5.4.15
 Open Zepplin 2.3
 
-ERC-721 Token Name
+###ERC-721 Token Name
 AlphaCentauriCoin
-ERC-721 Token Symbol
+
+###ERC-721 Token Symbol
 ✪ALPHA✪
 
 “Token Address” on the Rinkeby Network
