@@ -78,8 +78,8 @@ it('lets user2 buy a star and decreases its balance in ether', async() => {
 it('can add the star name and star symbol properly', async() => {
     let instance = await StarNotary.deployed();
     // Call the name and symbol properties in your Smart Contract and compare with the name and symbol provided
-    assert.equal(await instance.name(), 'STAR');
-    assert.equal(await instance.symbol(), '✪');
+    assert.equal(await instance.name(), 'AlphaCentauriCoin');
+    assert.equal(await instance.symbol(), '✪ALPHA✪');
 });
 
 it('lets 2 users exchange stars', async() => {
