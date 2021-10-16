@@ -45,7 +45,7 @@ const App = {
     const id = document.getElementById("lookid").value;
 
     // lookUptokenIdToStarInfo(id).call({from: this.account, gas: 470000,}).then(x => {
-    lookUptokenIdToStarInfo(id).send({from: this.account, gas: 470000,}).then(result => {
+    lookUptokenIdToStarInfo(id).call({from: this.account, gas: 470000,}).then(result => {
       const status = document.getElementById("lookup");
       console.log(result);
       status.innerHTML = result;
