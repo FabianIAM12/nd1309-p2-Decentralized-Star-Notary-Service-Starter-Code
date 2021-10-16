@@ -29,7 +29,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 const infuraKey = "d1daa17053764475820f80238fe1786f";
-const mnemonic = "catalog ship oil armed license illegal bulb crazy elite judge vibrant daughter";
+const mnemonic = "";
 
 module.exports = {
   /**
