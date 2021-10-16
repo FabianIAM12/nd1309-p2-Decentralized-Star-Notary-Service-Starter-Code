@@ -44,10 +44,11 @@ const App = {
     const { lookUptokenIdToStarInfo } = this.meta.methods;
     const id = document.getElementById("lookid").value;
 
-    lookUptokenIdToStarInfo(id).send({from: this.account}).then(x => {
+    // lookUptokenIdToStarInfo(id).call({from: this.account, gas: 470000,}).then(x => {
+    lookUptokenIdToStarInfo(id).send({from: this.account, gas: 470000,}).then(result => {
       const status = document.getElementById("lookup");
-      console.log(x);
-      status.innerHTML = x.name;
+      console.log(result);
+      status.innerHTML = result;
     });
   }
 };
