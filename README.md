@@ -5,10 +5,10 @@
 Truffle v5.4.15
 Open Zepplin 2.3
 
-###ERC-721 Token Name
+### ERC-721 Token Name
 AlphaCentauriCoin
 
-###ERC-721 Token Symbol
+### ERC-721 Token Symbol
 ✪ALPHA✪
 
 “Token Address” on the Rinkeby Network
